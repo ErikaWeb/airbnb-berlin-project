@@ -5,7 +5,6 @@ SELECT
   room_type,
   ROUND(AVG(price), 2) AS avg_price
 FROM `erika-4-sql.airbnb_berlin.airbnb_berlin`
-
 GROUP BY room_type
 ORDER BY avg_price DESC;
 
